@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!--PWA-->
+	  <link rel="manifest" href="./manifest.json"> 
+	  <link rel="shortcut icon" type="image/png" href="./img/Logo-azul.png">
+
+  <title>Celex ESCOM</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Ubuntu:400,700'>
+<link rel='stylesheet' href='https://use.fontawesome.com/releases/v6.0.0/css/all.css'>
+<!--link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'-->
+<!--script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'>
+<link rel="stylesheet" href="./css/style.css">
+
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<!--CAROUSELL-->
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/css/swiper.min.css'>
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+
+	<head>
+
+		<link rel="shortcut icon" href="https://www.davidsonsilva.com.br/wp-content/themes/davidson/assets/img/favicon.png" >
+		<link rel="apple-touch-icon" sizes="57x57" href="https://www.davidsonsilva.com.br/wp-content/themes/davidson/assets/img/apple-touch-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="https://www.davidsonsilva.com.br/wp-content/themes/davidson/assets/img/apple-touch-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="https://www.davidsonsilva.com.br/wp-content/themes/davidson/assets/img/apple-touch-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="https://www.davidsonsilva.com.br/wp-content/themes/davidson/assets/img/apple-touch-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="https://www.davidsonsilva.com.br/wp-content/themes/davidson/assets/img/apple-touch-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="https://www.davidsonsilva.com.br/wp-content/themes/davidson/assets/img/apple-touch-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="https://www.davidsonsilva.com.br/wp-content/themes/davidson/assets/img/apple-touch-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="https://www.davidsonsilva.com.br/wp-content/themes/davidson/assets/img/apple-touch-icon-152x152.png">
+		<style src="style.css"></style>
+	</head>
+	<body ondragstart="return false" onselectstart="return false" oncontextmenu="return false">
+		<div id="preloader"></div>
+
+
+		<div class="over-menu"></div>
+		<div id="wrap">
+			<header class="header" id="header-sroll">
+				<div class="container">
+					<div class="row">
+						<div class="col-xs-12">
+							<div class="desk-menu">
+								<div class="logo">
+									<h1 class="logo-adn">
+										<a title="Davidson Silva - Desenvolvedor front-end em BH" href="#logo">
+											Davidson <span>Silva</span>
+										</a>
+									</h1>
+								</div>
+								<nav class="box-menu">
+									<div class="menu-container">
+										<div class="menu-head">
+											<a href="#logo" class="e1">
+												<img src="./img/02.png" alt="Davidson Silva">
+											</a>
+											<a href="#logo" target="_blank" class="client">
+												<span>
+													<!--Olá funlano-->
+												<i class="icon-user"></i></span>
+											</a>
+										</div>
+										<div class="menu-header-container">
+											<ul id="cd-primary-nav" class="menu">
+												<!--li class="contact menu-item ">
+													<a href="#">Acerca de</a>
+												</li-->
+
+												<!--li class="contact menu-item ">
+													<a href="#"><i class="fa-solid fa-headset"></i>&nbsp;Contacto</a>
+												</li-->
+												<li class="menu-item menu-item-has-children">
+													<a href="#"><i class="fa-solid fa-headset"></i>&nbsp;Contacto</a>
+													<ul class="sub-menu">
+														<li class="menu-item">
+															<a href="#"><!--i class="fa-solid fa-school"></i-->&nbsp;Escuela</a>
+														</li>
+														<li class="menu-item">
+															<a href="#"><!--i class="fa-solid fa-chalkboard-user"></i-->&nbsp;Profesores</a>
+														</li>
+													</ul>
+												</li>
+
+												<li class="menu-item menu-item-has-children">
+													<a href="#"><i class="fa-solid fa-bullhorn"></i>&nbsp;Convocatoria</a>
+													<ul class="sub-menu">
+														<li class="menu-item">
+															<a href="#"><!--i class="fa-solid fa-user-group"></i-->&nbsp;Inscripciones Alumnos</a>
+														</li>
+														<li class="menu-item">
+															<a href="#"><!--i class="fa-solid fa-users"></i-->&nbsp;Inscripciones Nuevos Alumnos</a>
+														</li>
+														<li class="menu-item">
+															<a href="#"><!--i class="fa-solid fa-bullhorn"></i-->&nbsp;Quieres estudiar con nostros?</a>
+														</li>
+													</ul>
+												</li>
+
+												<!--li class="menu-item menu-item-has-children">
+													<a href="#">Lorem Ipsum</a>
+													<ul class="sub-menu">
+														<li class="menu-item">
+															<a href="#">Lorem Ipsum</a>
+														</li>
+														<li class="menu-item">
+															<a href="h#">Lorem Ipsum</a>
+														</li>
+													</ul>
+												</li-->
+												<li class="menu-item menu-item-has-children">
+													<a href="#"><i class="fa-solid fa-flag-usa"></i>&nbsp;Inglés Semanal</a>
+													<ul class="sub-menu">
+														<li class="menu-item menu-item-has-children">
+															<a href="#">Básico</a>
+															<ul class="sub-menu">
+																<li class="menu-item">
+																	<a href="#">Básico 1</a>
+																</li>
+																<li class="menu-item">
+																	<a href="#">Básico 2</a>
+																</li>
+																<li class="menu-item">
+																	<a href="#">Básico 3</a>
+																</li>
+																<li class="menu-item">
+																	<a href="#">Básico 4</a>
+																</li>
+																<li class="menu-item">
+																	<a href="#">Básico 5</a>
+																</li>
+															</ul>
+														</li>
+														<li class="menu-item menu-item-has-children">
+															<a href="#">Intermedio</a>
+															<ul class="sub-menu">
+																<li class="menu-item">
+																	<a href="#">Intermedio 1</a>
+																</li>
+																<li class="menu-item">
+																	<a href="#">Intermedio 2</a>
+																</li>
+																<li class="menu-item">
+																	<a href="#">Intermedio 3</a>
+																</li>
+																<li class="menu-item">
+																	<a href="#">Intermedio 4</a>
+																</li>
+																<li class="menu-item">
+																	<a href="#">Intermedio 5</a>
+																</li>
+															</ul>
+														</li>
+														<li class="menu-item menu-item-has-children">
+															<a href="#">Avanzado</a>
+															<ul class="sub-menu">
+																<li class="menu-item">
+																	<a href="#">Avanzado 1</a>
+																</li>
+																<li class="menu-item">
+																	<a href="#">Avanzado 2</a>
+																</li>
+																<li class="menu-item">
+																	<a href="#">Avanzado 3</a>
+																</li>
+																<li class="menu-item">
+																	<a href="#">Avanzado 4</a>
+																</li>
+																<li class="menu-item">
+																	<a href="#">Avanzado 5</a>
+																</li>
+															</ul>
+														</li>
+													</ul>
+												</li>
+												<!--li class="menu-item menu-item-has-children">
+													<a href="#"><i class="fa-solid fa-flag-usa"></i>&nbsp;Inglés Sabatino</a>
+													<ul class="sub-menu">
+														<li class="menu-item menu-item-has-children">
+															<a href="#">Básico</a>
+															<ul class="sub-menu">
+																<li class="menu-item">
+																	<a href="#">Básico 1</a>
+																</li>
+																<li class="menu-item">
+																	<a href="#">Básico 2</a>
+																</li>
+																<li class="menu-item">
+																	<a href="#">Básico 3</a>
+																</li>
+																<li class="menu-item">
+																	<a href="#">Básico 4</a>
+																</li>
+																<li class="menu-item">
+																	<a href="#">Básico 5</a>
+																</li>
+															</ul>
+														</li>
+														<li class="menu-item menu-item-has-children">
+															<a href="#">Intermedio</a>
+															<ul class="sub-menu">
+																<li class="menu-item">
+																	<a href="#">Intermedio 1</a>
+																</li>
+																<li class="menu-item">
+																	<a href="#">Intermedio 2</a>
+																</li>
+																<li class="menu-item">
+																	<a href="#">Intermedio 3</a>
+																</li>
+																<li class="menu-item">
+																	<a href="#">Intermedio 4</a>
+																</li>
+																<li class="menu-item">
+																	<a href="#">Intermedio 5</a>
+																</li>
+															</ul>
+														</li>
+														<li class="menu-item menu-item-has-children">
+															<a href="#">Avanzado</a>
+															<ul class="sub-menu">
+																<li class="menu-item">
+																	<a href="#">Avanzado 1</a>
+																</li>
+																<li class="menu-item">
+																	<a href="#">Avanzado 2</a>
+																</li>
+																<li class="menu-item">
+																	<a href="#">Avanzado 3</a>
+																</li>
+																<li class="menu-item">
+																	<a href="#">Avanzado 4</a>
+																</li>
+																<li class="menu-item">
+																	<a href="#">Avanzado 5</a>
+																</li>
+															</ul>
+														</li>
+													</ul>
+												</li-->
+												<!--li class="menu-item menu-item-has-children">
+													<a href="#">Lorem Ipsum</a>
+													<ul class="sub-menu">
+														<li class="menu-item">
+															<a href="#">Lorem Ipsum</a>
+														</li>
+														<li class="menu-item">
+															<a href="#">Lorem Ipsum</a>
+														</li>
+													</ul>
+												</li-->
+												<!--li class="contact menu-item ">
+													<a href="#"><i class="fa-solid fa-bullhorn"></i>&nbsp;Convocatoria</a>
+												</li-->
+												<li class="line"></li>
+												<li style="display: none;" class="logged-out menu-item">
+													<a class="nav-item nav-link " href="#" data-toggle="modal" data-target="#signinModal"><i class='bx bxs-user-circle' ></i>&nbsp;Ingresa</a>
+												</li>
+												<!--li style="display: none;" class="logged-out"><a href="#" data-toggle="modal" data-target="#signupModal"><i class="fas fa-clipboard"></i>&nbsp;Registrate</a></li-->
+												<li style="display: none;" class="logged-in"><a class="nav-item nav-link" href="./mi-espacio/avisos.html"><i class="fa-solid fa-bell"></i>&nbsp;Avisos</a></li>
+												<li style="display: none;" class="boton-salir logged-in"><a class="nav-item nav-link" href="#" id="logout" onclick="noticias()"><i class="fas fa-sign-out-alt"></i>&nbsp;Salir</a></li>
+											</ul>
+										</div>
+								      	<div class="menu-foot">
+									      	<div class="social">
+									    		<a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+									    		<a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+							      				<a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+									    		<a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+									    		<!--a href="#" target="_blank"><i class="fab fa-google-plus-g"></i></a>
+									    		<a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a-->
+										    </div>
+										    <hr/>
+										    <address>
+										    	<span class="tel"><i class="icon-telephone"></i> +55 31 3333-3333</span>
+										    	<span class="email"><i class="icon-mail"></i> celex@email.com</span>
+												<span class="end"><i class="icon-location"></i> ESCOM</span>
+											</address>
+								      	</div>
+									</div>
+									<div class="hamburger-menu">
+										<div class="bar"></div>
+									</div>
+								</nav>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+
+
+			<!--div class="conteudo">
+				<div class="container">
+					<div class="resize-message">
+						<span>Resize your browser<br/>
+							<i class="fas fa-arrows-alt-h"></i>
+						</span>
+					</div>
+				</div-->
+
+
+				<!--div class="author">
+					<a href="https://www.davidsonsilva.com.br?utm_source=codepen" target="_blank">Davidson <span>Silva</span></a-->
+					</div>
+				</div>
+			</div>
+
+
+
+<!--CARROUSELL-->
+<!--==== SLIDER ====-->
+<main class="main-content">
+	<section class="slideshow">
+	  <div class="slideshow-inner">
+		<div class="slides">
+		  <div class="slide is-active ">
+			<div class="slide-content">
+			  <div class="caption">
+				<div class="title">Inscripciones</div>
+				<div class="text">
+				  <p>Convocatoria</p>
+				</div> 
+				<a href="#" class="btn">
+				  <span class="btn-inner"> visítanos</span>
+				</a>
+			  </div>
+			</div>
+			<div class="image-container"> 
+			  <img src="https://images.unsplash.com/photo-1549314662-c81dcbec48a8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1752&q=80" alt="" class="image" />
+			</div>
+		  </div>
+		  <div class="slide">
+			<div class="slide-content">
+			  <div class="caption">
+				<div class="title">Cursos</div>
+				<div class="text">
+				  <p>Nuevos</p>
+				</div> 
+				<a href="#" class="btn">
+				  <span class="btn-inner"> visítanos</span>
+				</a>
+			  </div>
+			</div>
+			<div class="image-container">
+			  <img src="https://images.unsplash.com/photo-1558008258-3256797b43f3?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1931" alt="" class="image" />
+			</div>
+		  </div>
+  
+		  <div class="slide">
+			<div class="slide-content">
+			  <div class="caption">
+				<div class="title">Inglés</div>
+				<div class="text">
+				  <p>Avanzado 5</p>
+				</div> 
+				<a href="#" class="btn">
+				  <span class="btn-inner"> visítanos</span>
+				</a>
+			  </div>
+			</div>
+			<div class="image-container">
+			  <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740" alt="" class="image" />
+			</div>
+		  </div>
+		  
+  
+		  <div class="slide">
+			<div class="slide-content">
+			  <div class="caption">
+				<div class="title">Exámenes</div>
+				<div class="text">
+				  <p>Colocación</p>
+				</div> 
+				<a href="#" class="btn">
+				  <span class="btn-inner"> visítanos</span>
+				</a>
+			  </div>
+			</div>
+			<div class="image-container"> 
+			  <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740" alt="" class="image" />
+			</div>
+		  </div>
+		</div>
+  
+  
+		<div class="pagination01">
+		  <div class="item is-active"> 
+			<span class="icon">1</span>
+		  </div>
+		  <div class="item">
+			<span class="icon">2</span>
+		  </div>
+		  <div class="item">
+			<span class="icon">3</span>
+		  </div>
+		  <div class="item">
+			<span class="icon">4</span>
+		  </div>
+		</div>
+  
+  
+		<div class="arrows">
+		  <div class="arrow prev">
+			<span class="svg svg-arrow-left">
+			  <svg version="1.1" id="svg4-Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="14px" height="26px" viewBox="0 0 14 26" enable-background="new 0 0 14 26" xml:space="preserve"> <path d="M13,26c-0.256,0-0.512-0.098-0.707-0.293l-12-12c-0.391-0.391-0.391-1.023,0-1.414l12-12c0.391-0.391,1.023-0.391,1.414,0s0.391,1.023,0,1.414L2.414,13l11.293,11.293c0.391,0.391,0.391,1.023,0,1.414C13.512,25.902,13.256,26,13,26z"/> </svg>
+			  <span class="alt sr-only"></span>
+			</span>
+		  </div>
+		  <div class="arrow next">
+			<span class="svg svg-arrow-right">
+			  <svg version="1.1" id="svg5-Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="14px" height="26px" viewBox="0 0 14 26" enable-background="new 0 0 14 26" xml:space="preserve"> <path d="M1,0c0.256,0,0.512,0.098,0.707,0.293l12,12c0.391,0.391,0.391,1.023,0,1.414l-12,12c-0.391,0.391-1.023,0.391-1.414,0s-0.391-1.023,0-1.414L11.586,13L0.293,1.707c-0.391-0.391-0.391-1.023,0-1.414C0.488,0.098,0.744,0,1,0z"/> </svg>
+			  <span class="alt sr-only"></span>
+			</span>
+		  </div>
+		</div>
+
+
+
+	  </div> 
+	</section>
+  </main>
+  
+  <!--==== TERMINA SLIDER ====-->
+  
+
+
+
+
+<!--SKILLS-->
+<div class="container01">
+	<section id="skills">
+		<!--h3>Especialidades</h3-->
+		<ul class="grid2">
+		  <li>
+			<a href="#holis">
+			<img src="https://cdn3d.iconscout.com/3d/premium/thumb/pen-4153388-3439392.png" alt="comet">
+			<h4>Inscripciones</h4>
+			<div class="container">
+			
+			<!--a href="./recursos/acerca-de.html" class="button01 button4 text2">Detalles</a-->
+			</div>
+			</a>
+		  </li>
+			
+	
+		  <li>
+			<a href="./recursos/servicios.html">
+				<img src="https://soldadosyuniformes.files.wordpress.com/2011/02/united-kingdom.png?w=256" alt="comet">
+			<h4>Idiomas</h4>
+			<div class="container">
+			<!--a href="./recursos/acerca-de.html" class="button01 button4 text2">Detalles</a-->
+			</div>
+			</a>
+		  </li>
+	
+		  <li>
+			<a href="./recursos/servicios.html">
+				<img src="https://findicons.com/files/icons/575/pleasant/128/default_icon.png" alt="comet">
+			<h4>Calificaciones</h4>
+			<div class="container">
+			</div>
+			</a>
+		  </li>
+	
+	
+		  <li>
+			  <a href="./recursos/servicios.html">
+				<img src="https://cdn3d.iconscout.com/3d/premium/thumb/certificate-3766434-3162178.png" alt="comet">
+			<h4>Certificaciones</h4>
+			<div class="container">
+			</div>
+			</a>
+		  </li>
+		</ul>
+		
+	  </section>
+	</div>
+	<!--TERMINAN SKILLS-->
+
+  
+
+
+  
+	<div class="container01">
+
+		<div class="row">
+		  <div class="col-lg-6 ">
+			<div class="body">
+	  
+		<div>
+		  <h2 class="mb-60 mt-30">Acerca de Nosotros</h2>
+		  <h3>How alexpack made my dreams come true</h3>
+		  <p>There’s nothing better than lifting weights outdoors and in the sun.
+			Our #alexpack was designed just for that.
+			We started out as an idea: I was on vacation with no weights, and stuffed a suitcase with everything I could to get a squat session in. </p>
+		  <p>It then turned into a Kickstarter campaign.
+			And then turned into a movement.</p>
+		</div>
+	  
+	  </div>
+	  </div>
+	  <div class="col-lg-6">
+	  <div class="img-design">
+		<div class="imgac "> <img src="./img/inicio01.png" alt="about img" class="ag-dg1 img-fluid h-scl-base"></div>
+	  </div>
+	  </div>
+	  <div class="col-lg-6 mt30">
+		  <div class="itm-media-object mt40 tilt-3d">
+			<div class="media">
+			  <div class="img-ab- base" data-tilt="" data-tilt-max="20" data-tilt-speed="1000"><img src="https://separateweb.com/niwax-demo/images/icons/computers.svg" alt="icon" class="layer"></div>
+			  <div class="media-body">
+				<h4>Inglés</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquet ligula nec leo elementum semper. Mauris aliquet egestas metus.</p>
+			  </div>
+			</div>
+			<div class="media mt40">
+			  <div class="img-ab- base" data-tilt="" data-tilt-max="20" data-tilt-speed="1000"><img src="https://separateweb.com/niwax-demo/images/icons/worker.svg" alt="icon" class="layer"></div>
+			  <div class="media-body">
+				<h4>Inglés</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquet ligula nec leo elementum semper. Mauris aliquet egestas metus.</p>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  
+	  <div class="col-lg-6 mt30">
+		  <div class="itm-media-object mt40 tilt-3d">
+			<div class="media">
+			  <div class="img-ab- base" data-tilt="" data-tilt-max="20" data-tilt-speed="1000"><img src="https://separateweb.com/niwax-demo/images/icons/worker.svg" alt="icon" class="layer"></div>
+			  <div class="media-body">
+				<h4>Inglés</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquet ligula nec leo elementum semper. Mauris aliquet egestas metus.</p>
+			  </div>
+			</div>
+			<div class="media mt40">
+			  <div class="img-ab- base" data-tilt="" data-tilt-max="20" data-tilt-speed="1000" style="will-change: transform; transform: perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);"><img src="https://separateweb.com/niwax-demo/images/icons/computers.svg" alt="icon" class="layer"></div>
+			  <div class="media-body">
+				<h4>Inglés</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquet ligula nec leo elementum semper. Mauris aliquet egestas metus.</p>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  
+	  </div>
+	  </div>
+	  </div>
+	  </div>
+
+
+<!--FIREBASE-->
+
+<!-- REGISTRO FIREBASE -->
+  <!--MAIN CONTENT-->
+  <div class="container p-5" style="z-index:1">
+    <div class="row">
+      <div class="col-md-6 offset-md-3">
+        <ul class="list-group posts">
+                
+        </ul>
+      </div>
+    </div>
+  </div>
+              
+  <!--BOOTSTRAP SCRIPTS-->
+  
+      <!-- Modal  SignUP-->
+      <div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+         <div class="modal-content">
+           <div class="modal-header">
+            <h6 class="modal-title" id="exampleModalLabel">Registro:
+              Contraseña con al menos 6 caracteres
+            </h6>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+           </div>
+           <div class="modal-body">
+            <form id="signup-form">
+              <div class="form-group">
+                 <input type="text" id="signup-email" class="form-control"
+                 placeholder="E-mail" required>
+              </div>
+              <div class="form-group">
+                 <input type="password" id="signup-password" class="form-control"
+                 placeholder="Contraseña" required>
+              </div>
+              <button type="submit" class="btn btn-primary">SignUp</button>
+            </form>
+           </div>
+         </div>
+        </div>
+      </div>
+                 
+                 
+                 
+                  <!-- Modal  SignIn-->
+                  <div class="modal fade" id="signinModal"  role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                     <div class="modal-content">
+                       <div class="modal-header">
+                        <h6 class="modal-title" id="exampleModalLabel">Ingresa con tu correo de Gmail a nuestra plataforma y mantente informado sobre
+                          promociones y avisos importantes
+                        </h6>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                       </div>
+                       <div class="modal-body">
+                          
+                        <form id="login-form">
+                           
+                          <!--div class="form-group">
+                             <input type="text" id="login-email" class="form-control"
+                             placeholder="E-mail" required>
+                          </div>
+                          <div class="form-group">
+                             <input type="password" id="login-password" class="form-control"
+                             placeholder="Contraseña" required>
+                          </div>
+                          
+                          <button type="submit" class="btn btn-info btn-block">Ingresa</button-->
+                          
+                          <button type="button" class="btn btn-success btn-block black-background white" id="googleLogin"><i class="fab fa-google" aria-hidden="true"></i>&nbsp;Ingresa o Regístrate con Gmail</button>
+                          <!--button type="submit" class="btn btn-primary btn-block" id="facebookLogin"><i class="fab fa-facebook"></i>&nbsp;Ingresa o Regístrate con Facebook</button-->
+                        </form>
+                       </div>
+                     </div>
+                    </div>
+                  </div>
+<!--TERMINA FIREBASE-->
+
+
+
+<!--SOCIAL-->
+<div id="social-share">
+	<ul class="social-itens hidden">
+	  <li>
+		<button class="btn-share social-item-4">
+		  <i class="material-icons">phone</i>
+		  <span class="btn-share-text">Location</span>
+		</button>
+	  </li>
+	  <li>
+		<button class="btn-share social-item-3">
+		  <i class="material-icons">whatsapp</i>
+		  <span class="btn-share-text">Cart</span>
+		</button>
+		
+	  </li>
+	  <li>
+		<button class="btn-share social-item-2">
+		  <i class="material-icons">messenger</i>
+		  <span class="btn-share-text">Phone</span>
+		</button>
+		
+	  </li>
+	  <li>
+		<button class="btn-share social-item-1">
+		  <i class="material-icons">facebook</i>
+		  <span class="btn-share-text">Facebook</span>
+		</button>
+	  </li>
+	</ul>
+	<div class="social-open-menu">
+	  <button class="btn-share"><i class="material-icons">support_agent</i></button>
+	</div>
+  </div>
+
+
+<!-- Site footer -->
+<footer class="main-footer">
+	<div class="container__footer">
+		<!--Widgets Section-->
+		<div class="widgets-section">
+			<div class="row clearfix">
+				
+				<!--Column-->
+				<div class="big-column col-lg-6 col-md-12 col-sm-12">
+					<div class="row clearfix">
+					
+						<!--Footer Column-->
+						<div class="footer-column col-lg-7 col-md-6 col-sm-12">
+							<div class="footer-widget about-widget">
+								<div class="logo">
+									<a href="#"><img src="../img/01.png" alt="" /></a>
+								</div>
+								<div class="text">
+								  <p>
+									Cursos de inglés modalidad en línea con duración de 40 horas distribuidas
+									en seis semanas por nivel de un total de quince niveles. Puedes ingresar
+									por examen de colocación, desde primer nivel básico, o darle continuidad
+									a algún curso que hayas tomado de manera oficial en IPN.</p>
+								</div>
+							</div>
+						</div>
+						
+						<!--Footer Column-->
+						<div class="footer-column col-lg-5 col-md-6 col-sm-12">
+							<div class="footer-widget links-widget">
+								<h2>Menu</h2>
+								<ul class="footer-list">
+								  <li><a href="../index.html">Inicio</a></li>
+								  <li><a href="#holis">Acerca de</a></li>
+								  <li><a href="#holis">Contacto</a></li>
+								  <li><a href="#holis">Idiomas</a></li>
+								  <!--li><a href="#holis">Visitanos</a></li-->
+								  <!--li><a href="#">Politica de provacidad</a></li>
+								  <li><a href="#">Téminos y condiciones</a></li-->
+								</ul>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+				
+				 <!--Column-->
+				<div class="big-column col-lg-6 col-md-12 col-sm-12">
+					<div class="row clearfix">
+					
+						<!--Footer Column-->
+						<div class="footer-column col-lg-6 col-md-6 col-sm-12">
+							<div class="footer-widget gallery-widget">
+								<h2>Lo más popular</h2>
+								<div class="widget-content">
+									<div class="http://t.commonsupport.com/morris/images-outer clearfix">
+										<!--Image Box-->
+										<figure class="image-box"><a href="#holis" class="lightbox-image" data-fancybox="footer-gallery" title="Image Title Here" data-fancybox-group="footer-gallery"><img src="https://images.unsplash.com/photo-1516321497487-e288fb19713f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt=""></a></figure>
+										<!--Image Box-->
+										<figure class="image-box"><a href="#holis" class="lightbox-image" data-fancybox="footer-gallery" title="Image Title Here" data-fancybox-group="footer-gallery"><img src="https://images.unsplash.com/photo-1543269865-cbf427effbad?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt=""></a></figure>
+										<!--Image Box-->
+										<figure class="image-box"><a href="#holis" class="lightbox-image" data-fancybox="footer-gallery" title="Image Title Here" data-fancybox-group="footer-gallery"><img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80" alt=""></a></figure>
+										<!--Image Box-->
+										<figure class="image-box"><a href="#holis" class="lightbox-image" data-fancybox="footer-gallery" title="Image Title Here" data-fancybox-group="footer-gallery"><img src="https://images.unsplash.com/photo-1516321497487-e288fb19713f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt=""></a></figure>
+										<!--Image Box-->
+										<figure class="image-box"><a href="#holis" class="lightbox-image" data-fancybox="footer-gallery" title="Image Title Here" data-fancybox-group="footer-gallery"><img src="https://images.unsplash.com/photo-1543269865-cbf427effbad?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt=""></a></figure>
+										<!--Image Box-->
+										<figure class="image-box"><a href="#holis" class="lightbox-image" data-fancybox="footer-gallery" title="Image Title Here" data-fancybox-group="footer-gallery"><img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80" alt=""></a></figure>
+									</div>
+								</div>
+							</div>
+						</div>
+						
+						<!--Footer Column-->
+						<div class="footer-column col-lg-6 col-md-6 col-sm-12">
+							<div class="footer-widget info-widget">
+								<h2>Contacto</h2>
+								<ul class="info-list">
+									<li>ESCOM</li>
+									<li>33 5555 5555</li>
+									<li>celex@escom.com</li>
+								</ul>
+								<!-- Social Links -->
+								<ul class="social-links">
+									<!--li class="google"><a href="#"><span class="fab fa-google-plus-g"></span></a></li-->
+									<li class="facebook"><a href="#holis"><span class="fab fa-facebook-f"></span></a></li>
+									<li class="instagram"><a href="#"><span class="fab fa-instagram"></span></a></li>
+									<li class="twitter"><a href="#"><span class="fab fa-twitter"></span></a></li>
+								</ul>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+  
+	<!-- Footer Bottom -->
+	<div class="footer-bottom">
+		<div class="container">
+			<div class="row clearfix">
+				
+				<div class="column col-lg-6 col-md-12 col-sm-12">
+					<div class="copyright"><span class="theme_color">IPN</span> &copy; 2022</div>
+				</div>
+				<div class="column col-lg-6 col-md-12 col-sm-12">
+					<ul class="footer-nav">
+						<li><a href="#">Terminos y condiciones</a></li>
+						<li><a href="#">Politica de privacidad</a></li>
+					</ul>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+  
+  </footer>
+<!-- partial -->
+
+          <!--FIREBASE SCRIPTS-->
+                <!-- The core Firebase JS SDK is always required and must be listed first -->
+                <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-app.js"></script>
+            
+              <!-- TODO: Add SDKs for Firebase products that you want to use
+                  https://firebase.google.com/docs/web/setup#available-libraries -->
+              <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-analytics.js"></script>
+              <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-auth.js"></script>
+              <script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-firestore.js"></script>
+              
+                <script>
+                   // Your web app's Firebase configuration
+                   var firebaseConfig = {
+                    apiKey: "AIzaSyBcqlojoOioDwm1MzX-NZg4VzPgWo8570k",
+  authDomain: "celex-escom.firebaseapp.com",
+  projectId: "celex-escom",
+  storageBucket: "celex-escom.appspot.com",
+  messagingSenderId: "564169671357",
+  appId: "1:564169671357:web:f6ed97aabb20b062eeedd4",
+  measurementId: "G-RC9R6Y3CR6"
+              };
+            
+                  // Initialize Firebase
+                  firebase.initializeApp(firebaseConfig);
+                  const auth = firebase.auth();
+                  // FireStore base de datos
+                  const fs = firebase.firestore();
+                  firebase.analytics();
+                </script>
+                <!--TERMINA FIREBASE-->
+
+
+
+
+
+
+<!-- partial -->
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js'></script>
+<script src='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js'></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+
+
+<!--Carousell-->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.5/js/swiper.min.js'></script>
+
+  <script  src="./js/main.js"></script>
+
+     <!--Registro-->
+	 <script src="./registro.js"></script>
+
+	     
+
+	 <!--SLIDER-->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js'></script>
+
+ <!-- PWA -->
+ <script src="./script.js"></script>
+ 
+</body> 
+</html>
